@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced Form</title>
+</head>
+<body>
+  <header>
+    <h1>Simple Registration Form</h1>
+  </header>
+
+  <main>
+    <!-- Registration Form -->
+    <form>
+      <!-- Text input -->
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+      <!-- Email input -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <!-- Password input -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <!-- Readonly field -->
+      <label for="userid">User ID:</label><br>
+      <input type="text" id="userid" name="userid" value="12345" readonly><br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br>
+      <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option value="kenya">Kenya</option>
+        <option value="usa">USA</option>
+      </select><br><br>
+
+      <!-- Submit button -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- List -->
+    <h2>Steps to Register</h2>
+    <ul>
+      <li>Fill the form</li>
+      <li>Check your details</li>
+      <li>Submit</li>
+    </ul>
+
+    <!-- Table -->
+    <h2>Plans</h2>
+    <table border="1">
+      <tr>
+        <th>Plan</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Basic</td>
+        <td>Free</td>
+      </tr>
+      <tr>
+        <td>Premium</td>
+        <td>$10</td>
+      </tr>
+    </table>
+
+    <!-- Media -->
+    <h2>Welcome Image</h2>
+    <img src="https://via.placeholder.com/150" alt="Welcome">
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Assignment</p>
+  </footer>
+</body>
+</html>
